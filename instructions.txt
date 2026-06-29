@@ -1,0 +1,215 @@
+My own page on carloderossi.com, inspired to https://www.creative-innovation.net/
+Repository Structure, at C:\Carlo\projects\carloderossi.com
+carloderossi.com
+│
+├── app
+│   ├── page.tsx
+│   ├── about
+│   ├── projects
+│   ├── publications
+│   ├── certifications
+│   └── contact
+│
+├── components
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── Expertise.tsx
+│   ├── Experience.tsx
+│   ├── Projects.tsx
+│   ├── Articles.tsx
+│   ├── Certifications.tsx
+│   ├── Metrics.tsx
+│   └── Footer.tsx
+│
+├── data
+│   ├── certifications.json
+│   ├── github-projects.json
+│   └── linkedin-articles.json
+│
+├── public
+│   ├── cv.pdf
+│   ├── profile.jpg
+│   └── favicon.ico
+│
+├── .github/workflows/deploy.yml
+├── next.config.ts
+├── tailwind.config.ts
+└── package.json
+
+build carloderossi.com as a clean executive portfolio rather than a "personal blog."
+
+The positioning should be:
+AI Strategy • Agentic AI • Product Leadership • Enterprise Transformation
+
+**NOT** AI Engineer portfolio
+
+Experience at UBS/Credit Suisse is the differentiator. The GitHub repositories and articles should support that narrative rather than dominate it.
+
+Recommended Site Structure
+Home
+Large hero section.
+	Carlo De Rossi
+	AI Strategy • Agentic AI • Product Leadership
+
+	Helping organizations transform AI experimentation
+	into governed, scalable business value.
+
+	25+ years of experience across global financial services,
+	platform engineering, enterprise architecture,
+	AI governance and product management.
+
+Buttons:
+- View Projects
+- Read Articles
+- Download CV
+
+About
+Professional profile from CV (C:\Carlo\projects\carloderossi.com\public\cv.pdf)
+
+Include:
+- Director AI Strategy & Platform Governance
+- UBS
+- Credit Suisse
+- 25+ years experience
+- Enterprise Platforms
+- AI Governance
+- Azure AI
+- Product Management
+- Swiss Citizen
+- Zurich
+
+Professional photo.
+
+Expertise
+Six cards.
+
+AI Strategy & Governance
+	EU AI Act, FINMA, Responsible AI, Risk
+Agentic AI
+	Agents, MCP, A2A, LangGraph, RAG
+AI Product Management
+	Roadmaps, Discovery, ROI, Stakeholders
+Enterprise Architecture
+	TOGAF, Platform Engineering, Cloud
+
+Azure AI
+	Azure AI Foundry, Azure ML, OpenAI
+
+Program Leadership
+	Transformation, Governance, FinOps
+
+Experience
+
+Timeline.
+
+UBS 2023 – Present
+Director AI Interdependency Stream, Risk and Platform Governance
+
+Credit Suisse 2001 – 2023
+Product Manager, Senior Architect, Risk and Service Manager, SOX Control owner, Contracts Manager, Vendor Manager
+
+GFT 1998 – 2001
+Consultant
+
+Projects
+Use GitHub JSON: C:\Carlo\projects\carloderossi.com\data\github-projects.json
+
+Featured projects only:
+Same list as GitHub 
+
+Everything else can be available under:
+"View All Projects"
+
+Publications
+Use LinkedIn JSON: C:\Carlo\projects\carloderossi.com\data\linkedin-articles.json
+Show 6.
+
+Examples:
+When AI Agents Build Humpty Dumpty's Kingdom
+The Uncomfortable Truth About Governing GenAI at Enterprise Scale
+GraphRAG: Semantic Vector Search Is Usually Enough — Until It Isn’t
+Champion–Challenger in Production ML
+The Privacy Paradox of Enterprise AI
+CoMMEnTo: The Agentic AI Pattern That Separates Demos from Deployments
+
+Certifications 
+Simple.
+No explorer.
+No filtering.
+Just category cards.
+Artificial Intelligence - 50 certifications
+Machine Learning - 21 certifications
+Product Management - 22 certifications
+Azure - 19 certifications
+Data - 15 certifications
+Architecture & Governance - TOGAF, CRISC, ITIL, Kubernetes, SAFe
+
+Source: C:\Carlo\projects\carloderossi.com\data\certifications.json
+
+Metrics Section
+25+
+Years Experience
+
+100+
+Professional Certifications
+
+7,500+
+Employees Impacted
+
+35,000+
+Platform Deployments
+
+700+
+Stakeholders Managed
+
+50+
+Countries Supported
+
+Derived from CV.
+
+Contact
+
+Links only.
+
+LinkedIn
+GitHub
+Email
+Zurich
+Visual Design
+
+Not flashy.
+
+Think:
+
+Microsoft executive profile
+McKinsey consultant website
+Anthropic documentation aesthetics
+Color palette
+Background: #0B1020
+Surface: #111827
+Accent: #2563EB
+Text: #F8FAFC
+Muted: #94A3B8
+Typography
+Inter
+Geist
+Effects
+
+Minimal:
+subtle fade-in
+hover elevation
+no particle animations
+no carousels
+Tech Stack
+Next.js 15
+TypeScript
+Tailwind CSS
+Framer Motion
+GitHub Pages
+GitHub Actions
+
+C:\Carlo\projects\carloderossi.com
+
+npm install
+npm run dev
+npm run build

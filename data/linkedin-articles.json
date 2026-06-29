@@ -1,0 +1,135 @@
+[
+  {
+    "title": "When AI Agents Build Humpty Dumpty's Kingdom",
+    "description": "Why Azure Migration Agents reveal the difference between graphs, knowledge, and dreams — insights from building a multi-agent prototype.",
+    "classification": "AI Agents, Knowledge Graphs, Azure, Multi-Agent Systems",
+    "date": "June 2026",
+    "url": "https://www.linkedin.com/pulse/when-ai-agents-build-humpty-dumptys-kingdom-carlo-de-rossi-f7t9e"
+  },
+  {
+    "title": "The Uncomfortable Truth About Governing GenAI at Enterprise Scale",
+    "description": "The hidden governance challenges that emerge only after GenAI is deployed in production.",
+    "classification": "AI Governance, Enterprise AI, Risk",
+    "date": "June 2026",
+    "url": "https://www.linkedin.com/pulse/uncomfortable-truth-governing-genai-enterprise-scale-carlo-de-rossi-7zxae"
+  },
+  {
+    "title": "Champion–Challenger in Production ML",
+    "description": "How to safely replace a credit risk model without breaking production; practical guidance on Champion–Challenger deployment.",
+    "classification": "MLOps, Risk Modeling, Production ML",
+    "date": "May 2026",
+    "url": "https://www.linkedin.com/pulse/championchallenger-production-ml-carlo-de-rossi-b7jye"
+  },
+  {
+    "title": "From 'Internet Travel Agency' to AI: Why Every Technology Revolution Needs a New Mental Map",
+    "description": "A reflection on technological revolutions through the lens of generational experience and mental models.",
+    "classification": "AI Strategy, Tech History, Innovation",
+    "date": "May 2026",
+    "url": "https://www.linkedin.com/pulse/from-internet-travel-agency-ai-why-every-technology-needs-de-rossi-h6sse"
+  },
+  {
+    "title": "GraphRAG: Semantic Vector Search Is Usually Enough — Until It Isn't",
+    "description": "Where graph-based retrieval earns its keep; results from 84 LLM evaluations on EU/Swiss AI & data laws.",
+    "classification": "RAG, GraphRAG, Legal AI, LLM Evaluation",
+    "date": "April 2026",
+    "url": "https://www.linkedin.com/pulse/graphrag-semantic-vector-search-usually-enough-until-isnt-de-rossi-seaie"
+  },
+  {
+    "title": "Your Car Has More Code Than a Fighter Jet. And It's Already Obsolete.",
+    "description": "The software crisis inside modern vehicles — and why multi-agent AI systems are the only scalable engineering response.",
+    "classification": "Automotive Software, AI Agents, Systems Engineering",
+    "date": "April 2026",
+    "url": "https://www.linkedin.com/pulse/your-car-has-more-code-than-fighter-jet-its-already-carlo-de-rossi-8ppje"
+  },
+  {
+    "title": "The Privacy Paradox of Enterprise AI",
+    "description": "Why Swiss financial institutions can use AI without compromising privacy — and what the real question is.",
+    "classification": "Privacy, Enterprise AI, Swiss Finance",
+    "date": "March 2026",
+    "url": "https://www.linkedin.com/pulse/privacy-paradox-enterprise-ai-carlo-de-rossi-6h2ie"
+  },
+  {
+    "title": "The Adventure of the Tuned Intelligence",
+    "description": "A personal exploration of fine-tuning, public domain law, and the Gutenberg Project.",
+    "classification": "Fine-Tuning, AI Training, Public Domain",
+    "date": "March 2026",
+    "url": "https://www.linkedin.com/pulse/adventure-tuned-intelligence-carlo-de-rossi-chkze"
+  },
+  {
+    "title": "CoMMEnTo: The Agentic AI Pattern That Separates Demos from Deployments",
+    "description": "Why most AI initiatives fail and how the CoMMEnTo pattern bridges the gap between demos and production.",
+    "classification": "AI Agents, Deployment Patterns, Enterprise AI",
+    "date": "January 2026",
+    "url": "https://www.linkedin.com/pulse/commento-agentic-ai-pattern-separates-demos-from-carlo-de-rossi-khjef"
+  },
+  {
+    "title": "The Future of MLOps: Building Self-Healing Machine Learning Systems",
+    "description": "Why the most dangerous ML failures are silent — and how self-healing systems address them.",
+    "classification": "MLOps, Reliability, Self-Healing Systems",
+    "date": "February 2026",
+    "url": "https://www.linkedin.com/pulse/future-mlops-building-self-healing-machine-learning-systems-de-rossi-xlcpf"
+  },
+  {
+    "title": "LangChain 1.0 + A2A + MCP = The Future of AI Agents",
+    "description": "Experiments combining LangChain 1.0, Google A2A, and Model Context Protocol.",
+    "classification": "AI Agents, LangChain, MCP, A2A",
+    "date": "December 2025",
+    "url": "https://www.linkedin.com/pulse/langchain-10-a2a-mcp-future-ai-agents-carlo-de-rossi-2vohf"
+  },
+  {
+    "title": "Your Data Stays Yours: Building AI That Works With Sensitive Documents Without Compromising Security",
+    "description": "How to build secure AI systems that operate on sensitive documents without exposing data.",
+    "classification": "AI Security, Privacy, Sensitive Data",
+    "date": "November 2025",
+    "url": "https://www.linkedin.com/pulse/your-data-stays-yours-building-ai-works-sensitive-without-de-rossi-xq6lf"
+  },
+  {
+    "title": "Building a Dynamic Agent Discovery System: Merging MCP and A2A",
+    "description": "How MCP and A2A can be combined to create dynamic agent discovery.",
+    "classification": "AI Agents, MCP, A2A, Systems Architecture",
+    "date": "October 2025",
+    "url": "https://www.linkedin.com/pulse/building-dynamic-agent-discovery-system-merging-mcp-a2a-de-rossi-vodtf"
+  },
+  {
+    "title": "The Future of B2B Procurement: AI Agents Making Purchases While You Sleep",
+    "description": "How autonomous agents will transform procurement workflows.",
+    "classification": "AI Agents, Procurement, Automation",
+    "date": "September 2025",
+    "url": "https://www.linkedin.com/pulse/future-b2b-procurement-ai-agents-making-purchases-while-de-rossi-aoowf"
+  },
+  {
+    "title": "The David vs. Goliath Story: How a Simple TCN Beats Foundation Models at Multivariate Forecasting",
+    "description": "A PyTorch TCN outperforming foundation models in forecasting tasks.",
+    "classification": "Time Series, TCN, Forecasting, ML Models",
+    "date": "August 2025",
+    "url": "https://www.linkedin.com/pulse/david-vs-goliath-story-how-simple-temporal-network-tcn-carlo-de-rossi-zn9hf"
+  },
+  {
+    "title": "The Future of AI Quality Assurance: How NIST's New Standard Could Transform Enterprise AI Deployment",
+    "description": "A breakdown of NIST's proposed AI testing standard and its implications.",
+    "classification": "AI QA, Standards, NIST, Enterprise AI",
+    "date": "July 2025",
+    "url": "https://www.linkedin.com/pulse/future-ai-quality-assurance-how-nists-new-standard-could-de-rossi-2ahvf"
+  },
+  {
+    "title": "Understanding AI Agent Types (Thanks to IBM)",
+    "description": "A summary of IBM's taxonomy of AI agents and their capabilities.",
+    "classification": "AI Agents, Taxonomy, IBM",
+    "date": "June 2025",
+    "url": "https://www.linkedin.com/pulse/understanding-ai-agent-types-thanks-ibm-carlo-de-rossi-jqc9f"
+  },
+  {
+    "title": "The Future of Financial AI: Cybersecure Explainable Systems for Investment Recommendations",
+    "description": "A review of new research on secure, explainable AI for financial recommendations.",
+    "classification": "Financial AI, Explainability, Security",
+    "date": "May 2025",
+    "url": "https://www.linkedin.com/pulse/future-financial-ai-cybersecure-explainable-systems-carlo-de-rossi-aeocf"
+  },
+  {
+    "title": "The DeepSeek Breakthrough: When My AI Agent Finally Started Reasoning",
+    "description": "Experiments with agentic RAG and reasoning breakthroughs.",
+    "classification": "AI Agents, Reasoning, RAG",
+    "date": "January 2025",
+    "url": "https://www.linkedin.com/pulse/deepseek-breakthrough-when-my-ai-agent-finally-started-carlo-de-rossi-f8qif"
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "repositories": [
+    {
+      "name": "AI-103labs",
+      "description": "AI learning labs and exercises.",
+      "classification": "AI / Learning Labs",
+      "url": "https://github.com/carloderossi/AI-103labs"
+    },
+    {
+      "name": "dp100-pyscripts",
+      "description": "Python scripts for Azure DP-100 certification.",
+      "classification": "Azure ML / Certification",
+      "url": "https://github.com/carloderossi/dp100-pyscripts"
+    },
+    {
+      "name": "graphRAG",
+      "description": "Graph-based Retrieval-Augmented Generation system.",
+      "classification": "GenAI / RAG / Graph ML",
+      "url": "https://github.com/carloderossi/graphRAG"
+    },
+    {
+      "name": "PublishedArticles",
+      "description": "Collection of published articles.",
+      "classification": "Writing / Knowledge Sharing",
+      "url": "https://github.com/carloderossi/PublishedArticles"
+    },
+    {
+      "name": "detective_finetune_lab",
+      "description": "LLM fine‑tuning lab using detective fiction datasets.",
+      "classification": "LLM Fine‑Tuning / Research",
+      "url": "https://github.com/carloderossi/detective_finetune_lab"
+    },
+    {
+      "name": "mlflow-pipeline",
+      "description": "End‑to‑end production MLOps pipeline using MLflow.",
+      "classification": "MLOps / Infrastructure",
+      "url": "https://github.com/carloderossi/mlflow-pipeline"
+    },
+    {
+      "name": "carloderossi",
+      "description": "Personal GitHub profile repository.",
+      "classification": "Profile / Documentation",
+      "url": "https://github.com/carloderossi/carloderossi"
+    },
+    {
+      "name": "self-healing-ml-agentic-demo",
+      "description": "Agentic MLOps system with autonomous drift detection and retraining.",
+      "classification": "Agentic AI / MLOps",
+      "url": "https://github.com/carloderossi/self-healing-ml-agentic-demo"
+    },
+    {
+      "name": "youtube-agent",
+      "description": "AI agent interacting with YouTube content.",
+      "classification": "Agentic AI",
+      "url": "https://github.com/carloderossi/youtube-agent"
+    },
+    {
+      "name": "adaptive-rebalancing-agent",
+      "description": "Adaptive portfolio rebalancing agent.",
+      "classification": "Financial ML / Agentic AI",
+      "url": "https://github.com/carloderossi/adaptive-rebalancing-agent"
+    },
+    {
+      "name": "OllamaWin64NPU-GPU",
+      "description": "Run Ollama using Intel NPU on Windows.",
+      "classification": "AI Infrastructure / Deployment",
+      "url": "https://github.com/carloderossi/OllamaWin64NPU-GPU"
+    },
+    {
+      "name": "mycloud",
+      "description": "Cloud automation utilities.",
+      "classification": "Cloud / Automation",
+      "url": "https://github.com/carloderossi/mycloud"
+    },
+    {
+      "name": "CoMMEnTo",
+      "description": "Agentic AI pattern implementation.",
+      "classification": "Agentic AI / Architecture",
+      "url": "https://github.com/carloderossi/CoMMEnTo"
+    },
+    {
+      "name": "auction-agents",
+      "description": "Multi-agent RL auction simulation.",
+      "classification": "Reinforcement Learning / Multi-Agent Systems",
+      "url": "https://github.com/carloderossi/auction-agents"
+    },
+    {
+      "name": "a2a",
+      "description": "A2A multi-agent communication protocol implementation.",
+      "classification": "Agentic AI / Protocols",
+      "url": "https://github.com/carloderossi/a2a"
+    },
+    {
+      "name": "carlo-career-mcp",
+      "description": "Custom MCP server for career assistance.",
+      "classification": "AI Infrastructure / MCP",
+      "url": "https://github.com/carloderossi/carlo-career-mcp"
+    },
+    {
+      "name": "mcp",
+      "description": "Model Context Protocol experiments.",
+      "classification": "AI Infrastructure / MCP",
+      "url": "https://github.com/carloderossi/mcp"
+    },
+    {
+      "name": "NeuralForecast4TimeSeries",
+      "description": "Neural forecasting models with Optuna optimization.",
+      "classification": "Time Series / Financial ML",
+      "url": "https://github.com/carloderossi/NeuralForecast4TimeSeries"
+    },
+    {
+      "name": "agentic-rag",
+      "description": "Agentic RAG system with autonomous reasoning.",
+      "classification": "GenAI / Agentic RAG",
+      "url": "https://github.com/carloderossi/agentic-rag"
+    },
+    {
+      "name": "AIPdMML",
+      "description": "AI Product Management + Machine Learning notebooks.",
+      "classification": "AI Product Management",
+      "url": "https://github.com/carloderossi/AIPdMML"
+    },
+    {
+      "name": "dimensionalityreduction",
+      "description": "PCA, t-SNE, UMAP experiments.",
+      "classification": "ML Foundations / Feature Engineering",
+      "url": "https://github.com/carloderossi/dimensionalityreduction"
+    },
+    {
+      "name": "CreditCardFraudAnomalyDetection",
+      "description": "Financial anomaly detection model.",
+      "classification": "Financial ML / Anomaly Detection",
+      "url": "https://github.com/carloderossi/CreditCardFraudAnomalyDetection"
+    },
+    {
+      "name": "nytaxyEDA",
+      "description": "Exploratory data analysis on NYC taxi dataset.",
+      "classification": "Data Science / EDA",
+      "url": "https://github.com/carloderossi/nytaxyEDA"
+    },
+    {
+      "name": "DataScienceCapstoneProj",
+      "description": "Data science capstone project.",
+      "classification": "Data Science",
+      "url": "https://github.com/carloderossi/DataScienceCapstoneProj"
+    },
+    {
+      "name": "cdryfinanceassignment",
+      "description": "Finance-related ML assignment.",
+      "classification": "Financial ML",
+      "url": "https://github.com/carloderossi/cdryfinanceassignment"
+    },
+    {
+      "name": "gans_n_flowers",
+      "description": "GANs for flower image generation.",
+      "classification": "Generative AI / GANs",
+      "url": "https://github.com/carloderossi/gans_n_flowers"
+    },
+    {
+      "name": "ml_animations",
+      "description": "Interactive ML concept animations.",
+      "classification": "ML Education / Visualization",
+      "url": "https://github.com/carloderossi/ml_animations"
+    },
+    {
+      "name": "winequality",
+      "description": "Wine quality prediction model.",
+      "classification": "ML / Regression",
+      "url": "https://github.com/carloderossi/winequality"
+    },
+    {
+      "name": "cdrBostonHousingStats",
+      "description": "Boston housing dataset analysis.",
+      "classification": "ML / Regression",
+      "url": "https://github.com/carloderossi/cdrBostonHousingStats"
+    },
+    {
+      "name": "generative-ai-for-beginners",
+      "description": "Fork of Microsoft’s Generative AI beginner course.",
+      "classification": "GenAI / Education",
+      "url": "https://github.com/carloderossi/generative-ai-for-beginners"
+    }
+  ]
+}
