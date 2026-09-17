@@ -14,9 +14,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Metrics />
         <Expertise />
         <Experience />
-        <Metrics />
         <Projects />
         <Articles />
         <Certifications />

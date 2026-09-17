@@ -156,11 +156,18 @@ export default function Certifications() {
             </div>
 
             <div className="shrink-0 text-left md:text-right">
-              <div className="text-3xl font-bold text-accent tabular-nums">
+           <div className="text-3xl font-bold text-accent tabular-nums">
                 {totalCertifications}+
               </div>
               <div className="text-xs text-muted mt-1">
-                professional credentials
+                certifications & credentials
+
+              </div>              
+              <div className="text-3xl font-bold text-accent tabular-nums">
+                25+
+              </div>
+              <div className="text-xs text-muted mt-1">
+                Years of Experience
               </div>
             </div>
           </div>
@@ -225,7 +232,7 @@ export default function Certifications() {
 
                       {cert.featured && (
                         <span className="shrink-0 text-[10px] uppercase tracking-wider text-accent">
-                          Selected
+                          
                         </span>
                       )}
                     </div>

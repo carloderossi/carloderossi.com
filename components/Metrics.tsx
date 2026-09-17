@@ -4,12 +4,21 @@ import { useEffect, useRef } from 'react'
 
 const metrics = [
   { value: '25+', label: 'Years Experience' },
-  { value: '50+', label: 'Professional Certifications' },
-  { value: '7,500+', label: 'Employees Impacted' },
-  { value: '35,000+', label: 'Platform Deployments' },
-  { value: '700+', label: 'Stakeholders Managed' },
+  { value: '150+', label: 'Professional Certifications' },
+  { value: '35K+', label: 'Platform Deployments' },
   { value: '20+', label: 'Countries Supported' },
+  { value: '$25M+', label: 'Cost Avoidance Delivered' },
+  { value: '7,5K+', label: 'Employees Impacted' },
 ]
+
+/* const metrics = [
+  { value: '25+', label: 'Years Experience' },
+  { value: '150+', label: 'Certifications & Credentials' },
+  { value: '35K+', label: 'Platform Deployments' },
+  { value: '22K+', label: 'Application Relationships Analysed' },
+  { value: '$25M+', label: 'Cost Avoidance Delivered' },
+  { value: '7,500+', label: 'Employees Impacted' },
+] */
 
 export default function Metrics() {
   const ref = useRef<HTMLDivElement>(null)
