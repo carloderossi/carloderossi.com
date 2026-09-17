@@ -4,11 +4,11 @@ import { useEffect, useRef } from 'react'
 
 const metrics = [
   { value: '25+', label: 'Years Experience' },
-  { value: '100+', label: 'Professional Certifications' },
+  { value: '50+', label: 'Professional Certifications' },
   { value: '7,500+', label: 'Employees Impacted' },
   { value: '35,000+', label: 'Platform Deployments' },
   { value: '700+', label: 'Stakeholders Managed' },
-  { value: '50+', label: 'Countries Supported' },
+  { value: '20+', label: 'Countries Supported' },
 ]
 
 export default function Metrics() {

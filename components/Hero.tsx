@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 import { ArrowDown, Github, Linkedin, FileText } from 'lucide-react'
 
 export default function Hero() {
@@ -32,113 +33,170 @@ export default function Hero() {
         }}
       />
 
-      {/* Accent glow */}
+      {/* Accent glow — follows portrait side on desktop */}
       <div
-        className="absolute top-1/3 left-1/4 w-96 h-96 pointer-events-none"
+        className="absolute top-1/3 right-1/4 w-96 h-96 pointer-events-none"
         style={{
-          background: 'radial-gradient(circle, rgba(37,99,235,0.08) 0%, transparent 70%)',
+          background: 'radial-gradient(circle, rgba(37,99,235,0.07) 0%, transparent 70%)',
         }}
       />
 
       <div className="relative max-w-6xl mx-auto w-full">
-        {/* Eyebrow */}
-        <p
-          className="text-accent text-sm font-mono tracking-widest uppercase mb-6"
-          style={{ animation: 'fadeIn 0.5s ease-out 0.1s both' }}
-        >
-          Director · AI Strategy & Platform Governance
-        </p>
+        <div className="flex flex-col lg:flex-row lg:items-center lg:gap-16 xl:gap-24">
 
-        {/* Name */}
-        <h1
-          className="text-6xl md:text-8xl font-bold tracking-tight text-text leading-none mb-2"
-          style={{ animation: 'fadeUp 0.6s ease-out 0.2s both' }}
-        >
-          Carlo
-        </h1>
-        <h1
-          className="text-6xl md:text-8xl font-bold tracking-tight leading-none mb-8"
-          style={{
-            animation: 'fadeUp 0.6s ease-out 0.3s both',
-            background: 'linear-gradient(90deg, #F8FAFC 60%, #2563EB)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            backgroundClip: 'text',
-          }}
-        >
-          De Rossi
-        </h1>
+          {/* ── Left column: text ── */}
+          <div className="flex-1 min-w-0">
+            {/* Eyebrow */}
+            <p
+              className="text-accent text-sm font-mono tracking-widest uppercase mb-6"
+              style={{ animation: 'fadeIn 0.5s ease-out 0.1s both' }}
+            >
+              Director · AI Strategy & Platform Governance
+            </p>
 
-        {/* Divider line that animates in */}
-        <div
-          ref={lineRef}
-          className="h-px bg-accent mb-8 transition-all duration-700 ease-out"
-          style={{ width: '0%' }}
-        />
+            {/* Name */}
+            <h1
+              className="text-6xl md:text-8xl font-bold tracking-tight text-text leading-none mb-2"
+              style={{ animation: 'fadeUp 0.6s ease-out 0.2s both' }}
+            >
+              Carlo
+            </h1>
+            <h1
+              className="text-6xl md:text-8xl font-bold tracking-tight leading-none mb-8"
+              style={{
+                animation: 'fadeUp 0.6s ease-out 0.3s both',
+                background: 'linear-gradient(90deg, #F8FAFC 60%, #2563EB)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+              }}
+            >
+              De Rossi
+            </h1>
 
-        {/* Tagline */}
-        <p
-          className="text-xl md:text-2xl text-muted font-light max-w-2xl leading-relaxed mb-4"
-          style={{ animation: 'fadeUp 0.6s ease-out 0.5s both' }}
-        >
-          Helping organizations transform AI experimentation
-          <br className="hidden md:block" /> into governed, scalable business value.
-        </p>
+            {/* Animated divider */}
+            <div
+              ref={lineRef}
+              className="h-px bg-accent mb-8 transition-all duration-700 ease-out"
+              style={{ width: '0%' }}
+            />
 
-        <p
-          className="text-muted text-base max-w-xl leading-relaxed mb-12"
-          style={{ animation: 'fadeUp 0.6s ease-out 0.65s both' }}
-        >
-          25+ years across global financial services — platform engineering,
-          enterprise architecture, AI governance, and product management
-          at UBS and Credit Suisse.
-        </p>
+            {/* Tagline */}
+            <p
+              className="text-xl md:text-2xl text-muted font-light max-w-xl leading-relaxed mb-4"
+              style={{ animation: 'fadeUp 0.6s ease-out 0.5s both' }}
+            >
+              Helping organizations transform AI experimentation
+              into governed, scalable business value.
+            </p>
 
-        {/* Discipline tags */}
-        <div
-          className="flex flex-wrap gap-2 mb-12"
-          style={{ animation: 'fadeUp 0.6s ease-out 0.75s both' }}
-        >
-          {['AI Strategy', 'Agentic AI', 'Product Leadership', 'Enterprise Transformation'].map(
-            (tag) => (
-              <span
-                key={tag}
-                className="px-3 py-1 text-xs font-medium border border-border text-muted rounded-sm tracking-wide"
+            <p
+              className="text-muted text-base max-w-lg leading-relaxed mb-10"
+              style={{ animation: 'fadeUp 0.6s ease-out 0.65s both' }}
+            >
+              25+ years across global financial services — platform engineering,
+              enterprise architecture, AI governance, and product management
+              at UBS and Credit Suisse.
+            </p>
+
+            {/* Discipline tags */}
+            <div
+              className="flex flex-wrap gap-2 mb-10"
+              style={{ animation: 'fadeUp 0.6s ease-out 0.75s both' }}
+            >
+              {['AI Strategy', 'Agentic AI', 'Product Leadership', 'Enterprise Transformation'].map(
+                (tag) => (
+                  <span
+                    key={tag}
+                    className="px-3 py-1 text-xs font-medium border border-border text-muted rounded-sm tracking-wide"
+                  >
+                    {tag}
+                  </span>
+                )
+              )}
+            </div>
+
+            {/* CTAs */}
+            <div
+              className="flex flex-col sm:flex-row gap-4"
+              style={{ animation: 'fadeUp 0.6s ease-out 0.85s both' }}
+            >
+              <a
+                href="#projects"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-accent hover:bg-accent-light text-white text-sm font-medium rounded transition-colors duration-200"
               >
-                {tag}
-              </span>
-            )
-          )}
-        </div>
+                <Github size={16} />
+                View Projects
+              </a>
+              <a
+                href="#articles"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-text hover:border-accent-light hover:text-accent-light text-sm font-medium rounded transition-colors duration-200"
+              >
+                <Linkedin size={16} />
+                Read Articles
+              </a>
+              <a
+                href="/cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-muted hover:text-text hover:border-muted text-sm font-medium rounded transition-colors duration-200"
+              >
+                <FileText size={16} />
+                Download CV
+              </a>
+            </div>
+          </div>
 
-        {/* CTAs */}
-        <div
-          className="flex flex-col sm:flex-row gap-4"
-          style={{ animation: 'fadeUp 0.6s ease-out 0.85s both' }}
-        >
-          <a
-            href="#projects"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-accent hover:bg-accent-light text-white text-sm font-medium rounded transition-colors duration-200"
+          {/* ── Right column: portrait ── */}
+          <div
+            className="hidden lg:flex flex-shrink-0 justify-center items-end mt-12 lg:mt-0"
+            style={{ animation: 'fadeIn 0.8s ease-out 0.4s both' }}
           >
-            <Github size={16} />
-            View Projects
-          </a>
-          <a
-            href="#articles"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-text hover:border-accent-light hover:text-accent-light text-sm font-medium rounded transition-colors duration-200"
-          >
-            <Linkedin size={16} />
-            Read Articles
-          </a>
-          <a
-            href="/cv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-muted hover:text-text hover:border-muted text-sm font-medium rounded transition-colors duration-200"
-          >
-            <FileText size={16} />
-            Download CV
-          </a>
+            <div className="relative" style={{ width: 380, height: 640 }}>
+              {/* Subtle accent border frame */}
+              <div
+                className="absolute inset-0 rounded-lg pointer-events-none z-10"
+                style={{
+                  boxShadow: 'inset 0 0 0 1px rgba(37,99,235,0.25)',
+                }}
+              />
+              {/* Bottom-left accent line */}
+              <div
+                className="absolute -bottom-3 -left-3 w-16 h-16 pointer-events-none z-0"
+                style={{
+                  borderBottom: '1px solid #2563EB',
+                  borderLeft: '1px solid #2563EB',
+                  borderBottomLeftRadius: '4px',
+                }}
+              />
+              {/* Top-right accent line */}
+              <div
+                className="absolute -top-3 -right-3 w-16 h-16 pointer-events-none z-0"
+                style={{
+                  borderTop: '1px solid #2563EB',
+                  borderRight: '1px solid #2563EB',
+                  borderTopRightRadius: '4px',
+                }}
+              />
+              {/* Portrait image */}
+              <Image
+                src="/profile.jpg"
+                alt="Carlo De Rossi"
+                fill
+                className="object-cover object-top rounded-lg"
+                priority
+                sizes="380px"
+              />
+              {/* Bottom gradient fade into page background */}
+              <div
+                className="absolute bottom-0 left-0 right-0 h-24 rounded-b-lg pointer-events-none z-10"
+                style={{
+                  background: 'linear-gradient(to bottom, transparent, rgba(11,16,32,0.6))',
+                }}
+              />
+            </div>
+          </div>
+
         </div>
       </div>
 
