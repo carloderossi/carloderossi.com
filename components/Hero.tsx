@@ -91,7 +91,7 @@ export default function Hero() {
             </p>
 
             <p
-              className="text-muted text-base max-w-lg leading-relaxed mb-10"
+              className="text-muted text-base max-w-xl leading-relaxed mb-10"
               style={{ animation: 'fadeUp 0.6s ease-out 0.65s both' }}
             >
               25+ years building enterprise technology in regulated financial services.
@@ -102,7 +102,7 @@ export default function Hero() {
               className="flex flex-wrap gap-2 mb-10"
               style={{ animation: 'fadeUp 0.6s ease-out 0.75s both' }}
             >
-              {['AI Strategy', 'AI Governance', 'Product Leadership', 'Enterprise Transformation'].map(
+              {['AI Architecture', 'AI Strategy & Governance', 'Product Leadership', 'Enterprise Transformation'].map(
                 (tag) => (
                   <span
                     key={tag}

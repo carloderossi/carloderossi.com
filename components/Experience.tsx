@@ -7,7 +7,7 @@ const timeline = [
   {
     period: '2023 – Present',
     org: 'UBS',
-    role: 'Director, AI Strategy & Platform Governance',
+    role: 'Director, Product Manager and Stream Lead',
     location: 'Zürich, Switzerland',
     highlight: 'Global Wealth Management Platforms',
     points: [
