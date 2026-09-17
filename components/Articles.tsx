@@ -45,7 +45,7 @@ export default function Articles() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <SectionHeader
             eyebrow="LinkedIn"
-            title="Publications"
+            title="AI Architecture & Governance Thinking"
             subtitle="Thought leadership on agentic AI, governance, and enterprise transformation."
           />
           <a

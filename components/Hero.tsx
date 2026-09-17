@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
-import { ArrowDown, Github, Linkedin, FileText } from 'lucide-react'
+import { ArrowDown, BadgeCheck, Mail, MailOpen, Send, MessageSquare, MessageCircle, Brain, Sparkles,Github, Linkedin, FileText } from 'lucide-react'
 
 export default function Hero() {
   const lineRef = useRef<HTMLDivElement>(null)
@@ -51,7 +51,7 @@ export default function Hero() {
               className="text-accent text-sm font-mono tracking-widest uppercase mb-6"
               style={{ animation: 'fadeIn 0.5s ease-out 0.1s both' }}
             >
-              Director · AI Strategy & Platform Governance
+              AI Architect & AI Product Manager
             </p>
 
             {/* Name */}
@@ -94,9 +94,7 @@ export default function Hero() {
               className="text-muted text-base max-w-lg leading-relaxed mb-10"
               style={{ animation: 'fadeUp 0.6s ease-out 0.65s both' }}
             >
-              25+ years across global financial services — platform engineering,
-              enterprise architecture, AI governance, and product management
-              at UBS and Credit Suisse.
+              25+ years building enterprise technology in regulated financial services.
             </p>
 
             {/* Discipline tags */}
@@ -104,7 +102,7 @@ export default function Hero() {
               className="flex flex-wrap gap-2 mb-10"
               style={{ animation: 'fadeUp 0.6s ease-out 0.75s both' }}
             >
-              {['AI Strategy', 'Agentic AI', 'Product Leadership', 'Enterprise Transformation'].map(
+              {['AI Strategy', 'AI Governance', 'Product Leadership', 'Enterprise Transformation'].map(
                 (tag) => (
                   <span
                     key={tag}
@@ -122,11 +120,11 @@ export default function Hero() {
               style={{ animation: 'fadeUp 0.6s ease-out 0.85s both' }}
             >
               <a
-                href="#projects"
+                href="#expertise"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-accent hover:bg-accent-light text-white text-sm font-medium rounded transition-colors duration-200"
               >
-                <Github size={16} />
-                View Projects
+                <BadgeCheck size={16} />
+                Expertise
               </a>
               <a
                 href="#articles"
@@ -135,6 +133,13 @@ export default function Hero() {
                 <Linkedin size={16} />
                 Read Articles
               </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-accent hover:bg-accent-light text-white text-sm font-medium rounded transition-colors duration-200"
+              >
+                <MailOpen  size={16} />
+                Get in Contact
+              </a>              
               <a
                 href="/cv.pdf"
                 target="_blank"

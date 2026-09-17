@@ -1,6 +1,6 @@
 'use client'
 
-import { Github, Linkedin, Mail, MapPin } from 'lucide-react'
+import { BadgeCheck, Brain, Sparkles,  Github, Linkedin, Mail, MapPin } from 'lucide-react'
 
 const links = [
   {
@@ -38,7 +38,7 @@ export default function Footer() {
           <p className="text-accent text-xs font-mono tracking-widest uppercase mb-3">Contact</p>
           <h2 className="text-3xl md:text-4xl font-bold text-text mb-4">Get in touch</h2>
           <p className="text-muted text-sm max-w-md">
-            Available from January 2027 for senior roles in AI strategy, architecture, and product
+            Available from the 1st of April 2027 for senior long-term roles in AI strategy, architecture, and product
             leadership across Swiss financial services, technology, and life sciences.
           </p>
         </div>

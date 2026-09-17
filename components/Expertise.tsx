@@ -30,7 +30,7 @@ const areas = [
   {
     title: 'Azure AI',
     icon: '△',
-    tags: ['Azure AI Foundry', 'Azure ML', 'OpenAI', 'AZ-104', 'DP-100'],
+    tags: ['Azure AI Foundry', 'Azure ML', 'AB-100', 'AI-103', 'AI-300', 'AB-730/731', 'DP-100'],
     desc: 'Hands-on Azure AI engineering: MLOps pipelines, Azure ML Champion-Challenger, AI Foundry multi-agent deployments.',
   },
   {

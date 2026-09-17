@@ -211,5 +211,7 @@ GitHub Actions
 C:\Carlo\projects\carloderossi.com
 
 npm install
-npm run dev
+npm run dev ---> http://localhost:3000
 npm run build
+
+
