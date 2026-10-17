@@ -209,7 +209,8 @@ export default function Hero() {
               {/* Portrait image */}
               <Image
                 // src="/profile.jpg"
-                src="/profile.png"
+                // src="/profile.png"
+                src="/cdr.png"
                 alt="Carlo De Rossi"
                 fill
                 className="object-cover object-top rounded-lg"
