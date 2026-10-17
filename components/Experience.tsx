@@ -45,11 +45,21 @@ const timeline = [
     period: '1998 – 2001',
     org: 'GFT Consulting',
     role: 'Consultant',
-    location: 'Zürich / Berlin',
+    location: 'Zürich / Darmstad (Frankfurt)',
     highlight: 'Forward-deployed to Swiss Post, Deutsche Post, ESTV',
     points: [
       'Systems integration and platform delivery for Swiss Post, Deutsche Post, and Swiss Federal Tax Administration (ESTV)',
       'Early experience bridging technical delivery with institutional client stakeholders in regulated public-sector environments',
+    ],
+  },
+    {
+    period: '1996 – 1998',
+    org: 'Freelancer',
+    role: 'Consultant',
+    location: 'Rome',
+    highlight: 'Autonomous freelancer, institutional and private clients',
+    points: [
+      'Successfully managed systems integration and platform delivery programmes for institutional stakeholders operating in regulated public-sector and private-sector environments.',
     ],
   },
 ]

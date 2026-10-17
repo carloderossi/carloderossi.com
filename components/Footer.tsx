@@ -9,17 +9,23 @@ const links = [
     icon: Linkedin,
     desc: '/in/carloderossi',
   },
-  {
-    label: 'GitHub',
-    href: 'https://github.com/carloderossi',
-    icon: Github,
-    desc: 'github.com/carloderossi',
-  },
+  // {
+  //   label: 'GitHub',
+  //   href: 'https://github.com/carloderossi',
+  //   icon: Github,
+  //   desc: 'github.com/carloderossi',
+  // },
   {
     label: 'Email',
     href: 'mailto:contacts@carloderossi.com',
     icon: Mail,
     desc: 'contacts@carloderossi.com',
+  },
+  {
+    label: 'Web',
+    href: 'http://www.carloderossi.com',
+    icon: Brain,
+    desc: 'carloderossi.com',
   },
   {
     label: 'Location',
