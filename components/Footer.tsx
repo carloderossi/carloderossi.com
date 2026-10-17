@@ -72,7 +72,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Carlo De Rossi · Zürich, Switzerland
           </p>
           <p className="text-muted text-xs font-mono">
-            AI Strategy · Agentic AI · Product Leadership
+            {/* AI Strategy · Agentic AI · Product Leadership */}
           </p>
         </div>
       </div>

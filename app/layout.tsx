@@ -9,20 +9,28 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Carlo De Rossi — AI Strategy & Enterprise Transformation',
+  title: 'Carlo De Rossi', // — AI Strategy & Enterprise Transformation',
   description:
     'Director AI Strategy & Platform Governance. 25+ years in global financial services. Agentic AI, Enterprise Architecture, AI Governance, Product Leadership.',
   keywords: [
+    'Enterprise Transformation',
     'AI Strategy',
     'Agentic AI',
     'Product Leadership',
+    'Product Management',
     'Enterprise Architecture',
     'TOGAF',
     'FINMA',
-    'Azure AI',
+    'AI Governance',
+    'Microsoft Agentic AI',
+    'Microsoft Foundry',
+    'Microsoft Azure',
+    'Microsoft Copilot Studio',
+    'Business Process Transformation',
     'UBS',
     'Credit Suisse',
     'Zürich',
+    'Switzerland',
   ],
   authors: [{ name: 'Carlo De Rossi', url: 'https://carloderossi.com' }],
   openGraph: {
