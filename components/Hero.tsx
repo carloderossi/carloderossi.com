@@ -51,7 +51,7 @@ export default function Hero() {
               className="text-accent text-sm font-mono tracking-widest uppercase mb-6"
               style={{ animation: 'fadeIn 0.5s ease-out 0.1s both' }}
             >
-              AI Architect & AI Product Manager
+              Product Leadership | Business-IT Alignment | Technology Governance
             </p>
 
             {/* Name */}
@@ -73,7 +73,26 @@ export default function Hero() {
             >
               De Rossi
             </h1>
-
+    <p
+  className="text-accent text-sm font-mono tracking-widest uppercase mb-4 flex items-center gap-2"
+  style={{ animation: 'fadeIn 0.5s ease-out 0.1s both' }}
+>
+              Zurich Switzerland   
+                <svg
+    width="18"
+    height="18"
+    viewBox="0 0 32 32"
+    role="img"
+    aria-label="Swiss flag"
+    className="inline-block flex-shrink-0"
+  >
+    <rect width="32" height="32" rx="2" fill="#D52B1E" />
+    <path
+      d="M13 6h6v7h7v6h-7v7h-6v-7H6v-6h7z"
+      fill="#FFFFFF"
+    />
+  </svg>
+            </p>
             {/* Animated divider */}
             <div
               ref={lineRef}
@@ -86,15 +105,19 @@ export default function Hero() {
               className="text-xl md:text-2xl text-muted font-light max-w-xl leading-relaxed mb-4"
               style={{ animation: 'fadeUp 0.6s ease-out 0.5s both' }}
             >
-              Helping organizations transform AI experimentation
-              into governed, scalable business value.
+              Turning complex technology into measurable business value.
             </p>
-
+            <p
+              className="text-muted text-base max-w-xl leading-relaxed mb-2"
+              style={{ animation: 'fadeUp 0.6s ease-out 0.65s both' }}
+            >
+              I lead enterprise technology and AI transformations, connecting business strategy, engineering, governance and execution. 
+            </p>
             <p
               className="text-muted text-base max-w-xl leading-relaxed mb-10"
               style={{ animation: 'fadeUp 0.6s ease-out 0.65s both' }}
             >
-              25+ years building enterprise technology in regulated financial services.
+              Over 25 years in global financial services, I have helped organizations modernize critical platforms, reduce operational complexity and deliver sustainable business outcomes.
             </p>
 
             {/* Discipline tags */}
@@ -102,7 +125,7 @@ export default function Hero() {
               className="flex flex-wrap gap-2 mb-10"
               style={{ animation: 'fadeUp 0.6s ease-out 0.75s both' }}
             >
-              {['AI Architecture', 'AI Strategy & Governance', 'Product Leadership', 'Enterprise Transformation'].map(
+              {['Technology & AI Transformation', 'Product & Platform Leadership', 'Governance & Risk', 'Enterprise Architecture'].map(
                 (tag) => (
                   <span
                     key={tag}
@@ -138,7 +161,7 @@ export default function Hero() {
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-accent hover:bg-accent-light text-white text-sm font-medium rounded transition-colors duration-200"
               >
                 <MailOpen  size={16} />
-                Get in Contact
+                Contact me
               </a>              
               <a
                 href="/cv.pdf"
@@ -147,7 +170,7 @@ export default function Hero() {
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-muted hover:text-text hover:border-muted text-sm font-medium rounded transition-colors duration-200"
               >
                 <FileText size={16} />
-                Download CV
+                Executive CV
               </a>
             </div>
           </div>

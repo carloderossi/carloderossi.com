@@ -12,11 +12,11 @@ const areas = [
   {
     title: 'Agentic AI',
     icon: '◈',
-    tags: ['MCP', 'A2A', 'LangGraph', 'RAG'],
+    tags: ['MCP', 'A2A', 'LangGraph/Langchain', 'RAG AgenticRAG GraphRAG'],
     desc: 'Building production-grade agentic systems — multi-agent orchestration, tool protocols, and self-healing ML pipelines.',
   },
   {
-    title: 'AI Product Management',
+    title: 'AI Products & Platform Management',
     icon: '◇',
     tags: ['Roadmaps', 'Discovery', 'ROI', 'Stakeholders'],
     desc: 'Translating AI capability into business outcomes. Discovery, prioritization, and delivery across 700+ enterprise stakeholders.',
@@ -24,14 +24,14 @@ const areas = [
   {
     title: 'Enterprise Architecture',
     icon: '⬜',
-    tags: ['TOGAF 10', 'Platform Engineering', 'Cloud', 'FinOps'],
+    tags: ['TOGAF 10', 'Platform Architecture and Engineering', 'Cloud', 'FinOps'],
     desc: 'End-to-end platform design at scale. CHF multi-million budget governance, 35K+ deployments, vendor-neutral principles.',
   },
   {
-    title: 'Azure AI',
+    title: 'Microsoft Agentic AI',
     icon: '△',
     tags: ['Azure AI Foundry', 'Azure ML', 'AB-100', 'AI-103', 'AI-300', 'AB-730/731', 'DP-100'],
-    desc: 'Hands-on Azure AI engineering: MLOps pipelines, Azure ML Champion-Challenger, AI Foundry multi-agent deployments.',
+    desc: 'Hands-on AI architecture: Copilot Studio Agents, AI Foundry multi-agent systems, Azure ML Champion-Challenger, ML-GenAIOps.',
   },
   {
     title: 'Program Leadership',
